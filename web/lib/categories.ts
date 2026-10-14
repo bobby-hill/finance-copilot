@@ -11,7 +11,8 @@ export const CATEGORIES: Record<string, string> = {
   Shopping: "Retail and online shopping, including refunds of purchases.",
   "Health & Fitness": "Gym memberships, pharmacy and drugstore.",
   Savings: "Transfers to your own savings account.",
-  Transfers: "Payments to/from friends (e.g. Tikkie) that are not income.",
+  Transfers:
+    "Payments to/from friends (e.g. Tikkie) and money moved between your own accounts (top-ups, currency exchanges). Not income.",
   Other: "Anything that fits no other category, e.g. travel.",
 };
 

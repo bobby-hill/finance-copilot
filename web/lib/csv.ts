@@ -87,8 +87,46 @@ export function parseBankCsv(text: string): ParseResult {
     };
   }
 
+  // --- Revolut: Type, Product, Started Date, Completed Date, Description, Amount, Fee, Currency, State, Balance
+  if (h.includes("Started Date") && h.includes("State") && h.includes("Amount")) {
+    const i = {
+      type: h.indexOf("Type"),
+      product: h.indexOf("Product"),
+      started: h.indexOf("Started Date"),
+      completed: h.indexOf("Completed Date"),
+      desc: h.indexOf("Description"),
+      amount: h.indexOf("Amount"),
+      fee: h.indexOf("Fee"),
+      currency: h.indexOf("Currency"),
+      state: h.indexOf("State"),
+    };
+    const kept = rows.filter((r) => {
+      const st = (r[i.state] ?? "").trim().toUpperCase();
+      return st === "COMPLETED" || st === ""; // skip PENDING, REVERTED, DECLINED, FAILED
+    });
+    return {
+      format: "Revolut",
+      transactions: kept.map((r, id) => {
+        const fee = i.fee >= 0 ? parseAmount(r[i.fee] ?? "0") : 0;
+        const amount = Math.round((parseAmount(r[i.amount] ?? "0") - Math.abs(fee)) * 100) / 100;
+        const cur = (r[i.currency] ?? "").trim();
+        const type = (r[i.type] ?? "").trim();
+        return {
+          id,
+          date: parseDate(r[i.completed] || r[i.started] || ""),
+          description: (r[i.desc] ?? "").trim(),
+          amount,
+          note: [type, (r[i.product] ?? "").trim(), cur && cur !== "EUR" ? `currency ${cur}` : ""]
+            .filter(Boolean)
+            .join(" · "),
+          counterparty: "",
+        };
+      }),
+    };
+  }
+
   // --- Generic (incl. the Kaggle dataset: Date, Description, Amount, Transaction Type)
-  const iDate = col(/^(date|datum|transaction date|booking date)/i);
+  const iDate = col(/(^|\s)(date|datum)\b|transaction date|booking date|boekdatum/i);
   const iDesc = col(/(description|omschrijving|naam|name|merchant|payee)/i);
   const iAmt = col(/(amount|bedrag)/i);
   const iType = col(/(transaction type|af bij|debit\/credit|type)/i);
