@@ -37,3 +37,12 @@ python3 eval_categorization.py --dataset kaggle --method openai --prompt v2   # 
 python3 compare_results.py --dataset kaggle --category Utilities --category Restaurants
 ```
 To add a version: add an entry to `PROMPT_VERSIONS` and a branch in `category_block()` in `eval_categorization.py`.
+
+## Anonymizing a real bank export
+```bash
+python3 anonymize_csv.py ~/Downloads/NL91INGB...csv -o data/my_export.anon.csv --redact "YourFirstName" --redact "YourLastName"
+```
+Replaces IBANs, private persons' names, IDs/references, e-mails, phone numbers, postcodes and addresses; businesses
+are kept so categorization still works. It prints which names it treated as people and which it kept: **review both
+lists** and rerun with `--person` / `--keep` / `--redact` if needed. Optional: `--scale-amounts 0.9`, `--shift-days -14`.
+Keep the original export **outside** this repo.

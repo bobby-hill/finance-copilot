@@ -5,3 +5,6 @@ eval/results/
 web.tgz
 node_modules/
 .next/
+
+# your own (even anonymized) bank data stays local
+eval/data/my_*
