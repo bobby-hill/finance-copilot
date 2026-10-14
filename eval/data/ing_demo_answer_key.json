@@ -1,0 +1,7395 @@
+{
+  "generated_with_seed": 42,
+  "period": [
+    "2025-10-01",
+    "2026-09-30"
+  ],
+  "categories": [
+    "Income",
+    "Housing",
+    "Utilities",
+    "Insurance",
+    "Subscriptions",
+    "Groceries",
+    "Eating Out",
+    "Transport",
+    "Shopping",
+    "Health & Fitness",
+    "Savings",
+    "Transfers",
+    "Other"
+  ],
+  "num_transactions": 731,
+  "labels": [
+    {
+      "row_id": 0,
+      "date": "2026-09-30",
+      "name": "Shell Station A10",
+      "amount": 57.73,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 1,
+      "date": "2026-09-29",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 29.52,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 2,
+      "date": "2026-09-29",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 25.33,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 3,
+      "date": "2026-09-28",
+      "name": "Bol.com B.V.",
+      "amount": 88.59,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 4,
+      "date": "2026-09-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 5,
+      "date": "2026-09-27",
+      "name": "Bol.com B.V.",
+      "amount": 68.18,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 6,
+      "date": "2026-09-27",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 22.42,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 7,
+      "date": "2026-09-26",
+      "name": "Tikkie L. Bakker",
+      "amount": 23.32,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 8,
+      "date": "2026-09-26",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 48.38,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 9,
+      "date": "2026-09-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 10,
+      "date": "2026-09-26",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 47.52,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 11,
+      "date": "2026-09-25",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 32.18,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 12,
+      "date": "2026-09-25",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 13,
+      "date": "2026-09-25",
+      "name": "LIDL AMSTERDAM",
+      "amount": 47.33,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 14,
+      "date": "2026-09-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 15,
+      "date": "2026-09-24",
+      "name": "IKEA Amsterdam",
+      "amount": 90.62,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 16,
+      "date": "2026-09-24",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.45,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 17,
+      "date": "2026-09-23",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 75.87,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 18,
+      "date": "2026-09-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 19,
+      "date": "2026-09-22",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.73,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 20,
+      "date": "2026-09-22",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 31.36,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 21,
+      "date": "2026-09-21",
+      "name": "HEMA Amsterdam",
+      "amount": 76.87,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 22,
+      "date": "2026-09-20",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 29.84,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 23,
+      "date": "2026-09-20",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 30.08,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 24,
+      "date": "2026-09-19",
+      "name": "Cafe de Klos",
+      "amount": 31.85,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 25,
+      "date": "2026-09-18",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.42,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 26,
+      "date": "2026-09-17",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.0,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 27,
+      "date": "2026-09-17",
+      "name": "Spotify AB",
+      "amount": 12.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 28,
+      "date": "2026-09-17",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 29,
+      "date": "2026-09-16",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 30.54,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 30,
+      "date": "2026-09-16",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 44.45,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 31,
+      "date": "2026-09-15",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 20.16,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 32,
+      "date": "2026-09-15",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 34.44,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 33,
+      "date": "2026-09-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 34,
+      "date": "2026-09-14",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 35,
+      "date": "2026-09-13",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.47,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 36,
+      "date": "2026-09-13",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 64.71,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 37,
+      "date": "2026-09-13",
+      "name": "IKEA Amsterdam",
+      "amount": 41.81,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 38,
+      "date": "2026-09-13",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 33.22,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 39,
+      "date": "2026-09-12",
+      "name": "LIDL AMSTERDAM",
+      "amount": 58.14,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 40,
+      "date": "2026-09-11",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 61.65,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 41,
+      "date": "2026-09-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 42,
+      "date": "2026-09-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 43,
+      "date": "2026-09-09",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.18,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 44,
+      "date": "2026-09-09",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 54.87,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 45,
+      "date": "2026-09-08",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 46,
+      "date": "2026-09-08",
+      "name": "Lot Sixty One",
+      "amount": 4.03,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 47,
+      "date": "2026-09-08",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 47.86,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 48,
+      "date": "2026-09-07",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.18,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 49,
+      "date": "2026-09-07",
+      "name": "IKEA Amsterdam",
+      "amount": 72.94,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 50,
+      "date": "2026-09-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 51,
+      "date": "2026-09-06",
+      "name": "LIDL AMSTERDAM",
+      "amount": 26.93,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 52,
+      "date": "2026-09-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 53,
+      "date": "2026-09-05",
+      "name": "Restaurant Floreyn",
+      "amount": 36.39,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 54,
+      "date": "2026-09-04",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 55,
+      "date": "2026-09-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 56,
+      "date": "2026-09-03",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 57,
+      "date": "2026-09-02",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 58,
+      "date": "2026-09-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 59,
+      "date": "2026-09-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 60,
+      "date": "2026-09-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 61,
+      "date": "2026-09-01",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 31.84,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 62,
+      "date": "2026-08-31",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.1,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 63,
+      "date": "2026-08-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 64.51,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 64,
+      "date": "2026-08-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 30.07,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 65,
+      "date": "2026-08-30",
+      "name": "Cafe de Klos",
+      "amount": 67.23,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 66,
+      "date": "2026-08-29",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.59,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 67,
+      "date": "2026-08-28",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 37.2,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 68,
+      "date": "2026-08-28",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 69,
+      "date": "2026-08-28",
+      "name": "Coffee Company Wibautstr",
+      "amount": 3.4,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 70,
+      "date": "2026-08-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 71,
+      "date": "2026-08-28",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 45.59,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 72,
+      "date": "2026-08-28",
+      "name": "Tikkie M. Jansen",
+      "amount": 44.07,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 73,
+      "date": "2026-08-27",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.32,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 74,
+      "date": "2026-08-27",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 75,
+      "date": "2026-08-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 76,
+      "date": "2026-08-26",
+      "name": "Lot Sixty One",
+      "amount": 5.87,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 77,
+      "date": "2026-08-25",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 78,
+      "date": "2026-08-25",
+      "name": "Lot Sixty One",
+      "amount": 5.85,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 79,
+      "date": "2026-08-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 80,
+      "date": "2026-08-24",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.21,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 81,
+      "date": "2026-08-24",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 82,
+      "date": "2026-08-24",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 62.53,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 83,
+      "date": "2026-08-23",
+      "name": "Restaurant Floreyn",
+      "amount": 45.45,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 84,
+      "date": "2026-08-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 85,
+      "date": "2026-08-21",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.41,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 86,
+      "date": "2026-08-21",
+      "name": "Cafe de Klos",
+      "amount": 55.82,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 87,
+      "date": "2026-08-21",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 55.91,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 88,
+      "date": "2026-08-20",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 3.57,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 89,
+      "date": "2026-08-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 90,
+      "date": "2026-08-20",
+      "name": "LIDL AMSTERDAM",
+      "amount": 22.0,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 91,
+      "date": "2026-08-19",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.15,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 92,
+      "date": "2026-08-19",
+      "name": "LIDL AMSTERDAM",
+      "amount": 19.06,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 93,
+      "date": "2026-08-18",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 46.67,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 94,
+      "date": "2026-08-17",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.46,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 95,
+      "date": "2026-08-17",
+      "name": "Spotify AB",
+      "amount": 12.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 96,
+      "date": "2026-08-16",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 50.34,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 97,
+      "date": "2026-08-15",
+      "name": "Tikkie T. Visser",
+      "amount": 44.84,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 98,
+      "date": "2026-08-14",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 35.12,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 99,
+      "date": "2026-08-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 100,
+      "date": "2026-08-14",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 75.35,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 101,
+      "date": "2026-08-13",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 102,
+      "date": "2026-08-13",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 69.07,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 103,
+      "date": "2026-08-12",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 23.21,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 104,
+      "date": "2026-08-12",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 105,
+      "date": "2026-08-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 106,
+      "date": "2026-08-11",
+      "name": "Action 2041",
+      "amount": 40.92,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 107,
+      "date": "2026-08-11",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 53.59,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 108,
+      "date": "2026-08-10",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 109,
+      "date": "2026-08-10",
+      "name": "LIDL AMSTERDAM",
+      "amount": 35.89,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 110,
+      "date": "2026-08-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 111,
+      "date": "2026-08-08",
+      "name": "Bol.com B.V.",
+      "amount": 31.17,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 112,
+      "date": "2026-08-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 113,
+      "date": "2026-08-06",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.15,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 114,
+      "date": "2026-08-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 115,
+      "date": "2026-08-05",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 116,
+      "date": "2026-08-05",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 39.56,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 117,
+      "date": "2026-08-04",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.77,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 118,
+      "date": "2026-08-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 119,
+      "date": "2026-08-03",
+      "name": "HEMA Amsterdam",
+      "amount": 64.07,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 120,
+      "date": "2026-08-02",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 21.1,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 121,
+      "date": "2026-08-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 122,
+      "date": "2026-08-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 123,
+      "date": "2026-08-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 124,
+      "date": "2026-08-01",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 40.83,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 125,
+      "date": "2026-07-31",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.34,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 126,
+      "date": "2026-07-31",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 62.68,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 127,
+      "date": "2026-07-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 55.7,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 128,
+      "date": "2026-07-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.13,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 129,
+      "date": "2026-07-29",
+      "name": "LIDL AMSTERDAM",
+      "amount": 64.53,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 130,
+      "date": "2026-07-28",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 131,
+      "date": "2026-07-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 132,
+      "date": "2026-07-28",
+      "name": "Action 2041",
+      "amount": 53.9,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 133,
+      "date": "2026-07-27",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 3.68,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 134,
+      "date": "2026-07-27",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 135,
+      "date": "2026-07-27",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 30.93,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 136,
+      "date": "2026-07-26",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 32.95,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 137,
+      "date": "2026-07-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 138,
+      "date": "2026-07-26",
+      "name": "AH to go Centraal",
+      "amount": 9.1,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 139,
+      "date": "2026-07-25",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.6,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 140,
+      "date": "2026-07-25",
+      "name": "IKEA Amsterdam",
+      "amount": 21.63,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 141,
+      "date": "2026-07-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 142,
+      "date": "2026-07-24",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 55.18,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 143,
+      "date": "2026-07-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 144,
+      "date": "2026-07-22",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 145,
+      "date": "2026-07-21",
+      "name": "Shell Station A10",
+      "amount": 71.21,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 146,
+      "date": "2026-07-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 147,
+      "date": "2026-07-20",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 50.25,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 148,
+      "date": "2026-07-19",
+      "name": "Tikkie M. Jansen",
+      "amount": 37.84,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 149,
+      "date": "2026-07-18",
+      "name": "Tikkie L. Bakker",
+      "amount": 44.95,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 150,
+      "date": "2026-07-17",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 22.67,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 151,
+      "date": "2026-07-17",
+      "name": "Spotify AB",
+      "amount": 12.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 152,
+      "date": "2026-07-17",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 153,
+      "date": "2026-07-16",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 154,
+      "date": "2026-07-16",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 155,
+      "date": "2026-07-15",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.56,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 156,
+      "date": "2026-07-15",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 157,
+      "date": "2026-07-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 158,
+      "date": "2026-07-14",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 159,
+      "date": "2026-07-13",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 160,
+      "date": "2026-07-13",
+      "name": "LIDL AMSTERDAM",
+      "amount": 71.83,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 161,
+      "date": "2026-07-13",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.42,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 162,
+      "date": "2026-07-12",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 72.51,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 163,
+      "date": "2026-07-11",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 164,
+      "date": "2026-07-11",
+      "name": "Bar Botanique",
+      "amount": 48.41,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 165,
+      "date": "2026-07-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 166,
+      "date": "2026-07-10",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.39,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 167,
+      "date": "2026-07-10",
+      "name": "LIDL AMSTERDAM",
+      "amount": 72.3,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 168,
+      "date": "2026-07-10",
+      "name": "IKEA Amsterdam",
+      "amount": 18.13,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 169,
+      "date": "2026-07-10",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.51,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 170,
+      "date": "2026-07-09",
+      "name": "Zara Kalverstraat",
+      "amount": 12.26,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 171,
+      "date": "2026-07-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 172,
+      "date": "2026-07-08",
+      "name": "Coffee Company Wibautstr",
+      "amount": 3.96,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 173,
+      "date": "2026-07-07",
+      "name": "Shell Station A10",
+      "amount": 77.46,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 174,
+      "date": "2026-07-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 175,
+      "date": "2026-07-06",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 42.52,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 176,
+      "date": "2026-07-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 177,
+      "date": "2026-07-05",
+      "name": "Restaurant Floreyn",
+      "amount": 30.45,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 178,
+      "date": "2026-07-04",
+      "name": "LIDL AMSTERDAM",
+      "amount": 49.21,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 179,
+      "date": "2026-07-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 180,
+      "date": "2026-07-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.86,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 181,
+      "date": "2026-07-03",
+      "name": "Shell Station A10",
+      "amount": 78.22,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 182,
+      "date": "2026-07-03",
+      "name": "Restaurant Floreyn",
+      "amount": 44.58,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 183,
+      "date": "2026-07-03",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.3,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 184,
+      "date": "2026-07-02",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 59.41,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 185,
+      "date": "2026-07-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 186,
+      "date": "2026-07-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 187,
+      "date": "2026-07-01",
+      "name": "Zara Kalverstraat",
+      "amount": 26.47,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 188,
+      "date": "2026-07-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 189,
+      "date": "2026-06-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 37.04,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 190,
+      "date": "2026-06-30",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 191,
+      "date": "2026-06-30",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 64.27,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 192,
+      "date": "2026-06-28",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 76.81,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 193,
+      "date": "2026-06-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 194,
+      "date": "2026-06-26",
+      "name": "Restaurant Floreyn",
+      "amount": 73.32,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 195,
+      "date": "2026-06-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 196,
+      "date": "2026-06-26",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 52.43,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 197,
+      "date": "2026-06-25",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.22,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 198,
+      "date": "2026-06-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 199,
+      "date": "2026-06-24",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.53,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 200,
+      "date": "2026-06-24",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 68.54,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 201,
+      "date": "2026-06-23",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 202,
+      "date": "2026-06-23",
+      "name": "Lot Sixty One",
+      "amount": 4.55,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 203,
+      "date": "2026-06-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 204,
+      "date": "2026-06-22",
+      "name": "LIDL AMSTERDAM",
+      "amount": 66.26,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 205,
+      "date": "2026-06-21",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 21.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 206,
+      "date": "2026-06-20",
+      "name": "Transavia Airlines",
+      "amount": 412.6,
+      "direction": "Af",
+      "category": "Other",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "row_id": 207,
+      "date": "2026-06-20",
+      "name": "LIDL AMSTERDAM",
+      "amount": 19.05,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 208,
+      "date": "2026-06-19",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 209,
+      "date": "2026-06-19",
+      "name": "LIDL AMSTERDAM",
+      "amount": 49.73,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 210,
+      "date": "2026-06-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 211,
+      "date": "2026-06-17",
+      "name": "Lot Sixty One",
+      "amount": 4.33,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 212,
+      "date": "2026-06-15",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 213,
+      "date": "2026-06-15",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 67.49,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 214,
+      "date": "2026-06-15",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.71,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 215,
+      "date": "2026-06-14",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 27.22,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 216,
+      "date": "2026-06-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 217,
+      "date": "2026-06-14",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 68.48,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 218,
+      "date": "2026-06-13",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.89,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 219,
+      "date": "2026-06-13",
+      "name": "HEMA Amsterdam",
+      "amount": 84.18,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 220,
+      "date": "2026-06-12",
+      "name": "Cafe de Klos",
+      "amount": 56.28,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 221,
+      "date": "2026-06-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 222,
+      "date": "2026-06-10",
+      "name": "Lot Sixty One",
+      "amount": 5.72,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 223,
+      "date": "2026-06-09",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 21.66,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 224,
+      "date": "2026-06-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 225,
+      "date": "2026-06-08",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 27.43,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 226,
+      "date": "2026-06-08",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 227,
+      "date": "2026-06-08",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 60.54,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 228,
+      "date": "2026-06-07",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 30.97,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 229,
+      "date": "2026-06-07",
+      "name": "Bar Botanique",
+      "amount": 37.54,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 230,
+      "date": "2026-06-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 231,
+      "date": "2026-06-06",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 232,
+      "date": "2026-06-06",
+      "name": "Restaurant Floreyn",
+      "amount": 35.79,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 233,
+      "date": "2026-06-05",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.98,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 234,
+      "date": "2026-06-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 235,
+      "date": "2026-06-05",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 236,
+      "date": "2026-06-04",
+      "name": "Lot Sixty One",
+      "amount": 3.41,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 237,
+      "date": "2026-06-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 238,
+      "date": "2026-06-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.82,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 239,
+      "date": "2026-06-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 240,
+      "date": "2026-06-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 241,
+      "date": "2026-06-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 242,
+      "date": "2026-06-01",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 243,
+      "date": "2026-06-01",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.88,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 244,
+      "date": "2026-06-01",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 65.73,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 245,
+      "date": "2026-05-31",
+      "name": "Brouwerij 't IJ",
+      "amount": 41.06,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 246,
+      "date": "2026-05-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 22.45,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 247,
+      "date": "2026-05-30",
+      "name": "Cafe de Klos",
+      "amount": 63.91,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 248,
+      "date": "2026-05-29",
+      "name": "Zara Kalverstraat",
+      "amount": 64.09,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 249,
+      "date": "2026-05-29",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 250,
+      "date": "2026-05-29",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 47.32,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 251,
+      "date": "2026-05-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 252,
+      "date": "2026-05-28",
+      "name": "AH to go Centraal",
+      "amount": 9.18,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 253,
+      "date": "2026-05-27",
+      "name": "Etos Amsterdam",
+      "amount": 22.95,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": []
+    },
+    {
+      "row_id": 254,
+      "date": "2026-05-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 255,
+      "date": "2026-05-26",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 256,
+      "date": "2026-05-25",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.02,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 257,
+      "date": "2026-05-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 258,
+      "date": "2026-05-24",
+      "name": "Shell Station A10",
+      "amount": 59.82,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 259,
+      "date": "2026-05-24",
+      "name": "LIDL AMSTERDAM",
+      "amount": 18.2,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 260,
+      "date": "2026-05-23",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.85,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 261,
+      "date": "2026-05-23",
+      "name": "LIDL AMSTERDAM",
+      "amount": 22.6,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 262,
+      "date": "2026-05-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 263,
+      "date": "2026-05-22",
+      "name": "Shell Station A10",
+      "amount": 75.43,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 264,
+      "date": "2026-05-22",
+      "name": "Brouwerij 't IJ",
+      "amount": 70.49,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 265,
+      "date": "2026-05-22",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 53.57,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 266,
+      "date": "2026-05-21",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.32,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 267,
+      "date": "2026-05-20",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 35.11,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 268,
+      "date": "2026-05-18",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 269,
+      "date": "2026-05-17",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 32.14,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 270,
+      "date": "2026-05-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 271,
+      "date": "2026-05-16",
+      "name": "LIDL AMSTERDAM",
+      "amount": 28.56,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 272,
+      "date": "2026-05-15",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.15,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 273,
+      "date": "2026-05-15",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 38.8,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 274,
+      "date": "2026-05-15",
+      "name": "Belastingdienst",
+      "amount": 312.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "tax_refund"
+      ]
+    },
+    {
+      "row_id": 275,
+      "date": "2026-05-14",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.59,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 276,
+      "date": "2026-05-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 277,
+      "date": "2026-05-14",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 19.61,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 278,
+      "date": "2026-05-13",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 279,
+      "date": "2026-05-12",
+      "name": "Tikkie M. Jansen",
+      "amount": 24.07,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 280,
+      "date": "2026-05-12",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 22.91,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 281,
+      "date": "2026-05-12",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.17,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 282,
+      "date": "2026-05-12",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 68.13,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 283,
+      "date": "2026-05-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 284,
+      "date": "2026-05-11",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 14.08,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 285,
+      "date": "2026-05-10",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 36.2,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 286,
+      "date": "2026-05-09",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.87,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 287,
+      "date": "2026-05-09",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 36.14,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 288,
+      "date": "2026-05-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 289,
+      "date": "2026-05-09",
+      "name": "LIDL AMSTERDAM",
+      "amount": 32.85,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 290,
+      "date": "2026-05-07",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 291,
+      "date": "2026-05-07",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 23.07,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 292,
+      "date": "2026-05-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 293,
+      "date": "2026-05-06",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 29.99,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 294,
+      "date": "2026-05-06",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 295,
+      "date": "2026-05-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 296,
+      "date": "2026-05-05",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 59.02,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 297,
+      "date": "2026-05-04",
+      "name": "LIDL AMSTERDAM",
+      "amount": 72.7,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 298,
+      "date": "2026-05-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 299,
+      "date": "2026-05-03",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 34.41,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 300,
+      "date": "2026-05-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 301,
+      "date": "2026-05-02",
+      "name": "Brouwerij 't IJ",
+      "amount": 62.57,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 302,
+      "date": "2026-05-02",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 55.13,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 303,
+      "date": "2026-05-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 304,
+      "date": "2026-05-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 305,
+      "date": "2026-05-01",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.81,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 306,
+      "date": "2026-05-01",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 307,
+      "date": "2026-05-01",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.19,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 308,
+      "date": "2026-04-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.93,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 309,
+      "date": "2026-04-30",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 74.0,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 310,
+      "date": "2026-04-29",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 3.57,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 311,
+      "date": "2026-04-29",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 66.49,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 312,
+      "date": "2026-04-28",
+      "name": "Zara Kalverstraat",
+      "amount": 21.76,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 313,
+      "date": "2026-04-28",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 314,
+      "date": "2026-04-28",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 315,
+      "date": "2026-04-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 316,
+      "date": "2026-04-28",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 43.83,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 317,
+      "date": "2026-04-27",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 318,
+      "date": "2026-04-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 319,
+      "date": "2026-04-25",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.19,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 320,
+      "date": "2026-04-25",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 29.24,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 321,
+      "date": "2026-04-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 4150.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 322,
+      "date": "2026-04-24",
+      "name": "Zara Kalverstraat",
+      "amount": 9.13,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 323,
+      "date": "2026-04-24",
+      "name": "Brouwerij 't IJ",
+      "amount": 19.36,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 324,
+      "date": "2026-04-23",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 23.62,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 325,
+      "date": "2026-04-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 326,
+      "date": "2026-04-22",
+      "name": "Lot Sixty One",
+      "amount": 6.73,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 327,
+      "date": "2026-04-21",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 328,
+      "date": "2026-04-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 329,
+      "date": "2026-04-20",
+      "name": "Lot Sixty One",
+      "amount": 3.8,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 330,
+      "date": "2026-04-20",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 30.83,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 331,
+      "date": "2026-04-20",
+      "name": "Tikkie S. de Vries",
+      "amount": 25.46,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 332,
+      "date": "2026-04-19",
+      "name": "Bar Botanique",
+      "amount": 60.74,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 333,
+      "date": "2026-04-18",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.08,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 334,
+      "date": "2026-04-18",
+      "name": "Bar Botanique",
+      "amount": 24.81,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 335,
+      "date": "2026-04-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 336,
+      "date": "2026-04-17",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 72.94,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 337,
+      "date": "2026-04-16",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 30.78,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 338,
+      "date": "2026-04-15",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 339,
+      "date": "2026-04-14",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.26,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 340,
+      "date": "2026-04-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 341,
+      "date": "2026-04-14",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 342,
+      "date": "2026-04-14",
+      "name": "AH to go Centraal",
+      "amount": 4.21,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 343,
+      "date": "2026-04-11",
+      "name": "Bar Botanique",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 344,
+      "date": "2026-04-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 345,
+      "date": "2026-04-10",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 35.0,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 346,
+      "date": "2026-04-10",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.7,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 347,
+      "date": "2026-04-10",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 348,
+      "date": "2026-04-10",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 18.99,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 349,
+      "date": "2026-04-09",
+      "name": "Zara Kalverstraat",
+      "amount": 71.43,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 350,
+      "date": "2026-04-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 351,
+      "date": "2026-04-09",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 352,
+      "date": "2026-04-08",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 353,
+      "date": "2026-04-08",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.79,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 354,
+      "date": "2026-04-07",
+      "name": "Lot Sixty One",
+      "amount": 5.28,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 355,
+      "date": "2026-04-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 356,
+      "date": "2026-04-06",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.49,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 357,
+      "date": "2026-04-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 358,
+      "date": "2026-04-05",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 60.74,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 359,
+      "date": "2026-04-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 360,
+      "date": "2026-04-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 38.73,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 361,
+      "date": "2026-04-03",
+      "name": "Brouwerij 't IJ",
+      "amount": 70.37,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 362,
+      "date": "2026-04-03",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 48.48,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 363,
+      "date": "2026-04-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 364,
+      "date": "2026-04-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 365,
+      "date": "2026-04-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 366,
+      "date": "2026-04-01",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 367,
+      "date": "2026-04-01",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.82,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 368,
+      "date": "2026-03-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 62.71,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 369,
+      "date": "2026-03-30",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 17.43,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 370,
+      "date": "2026-03-29",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 52.17,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 371,
+      "date": "2026-03-28",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 51.64,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 372,
+      "date": "2026-03-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 373,
+      "date": "2026-03-27",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 374,
+      "date": "2026-03-27",
+      "name": "LIDL AMSTERDAM",
+      "amount": 25.97,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 375,
+      "date": "2026-03-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 376,
+      "date": "2026-03-26",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 377,
+      "date": "2026-03-26",
+      "name": "Lot Sixty One",
+      "amount": 4.76,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 378,
+      "date": "2026-03-26",
+      "name": "HEMA Amsterdam",
+      "amount": 26.7,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 379,
+      "date": "2026-03-25",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.89,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 380,
+      "date": "2026-03-25",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 381,
+      "date": "2026-03-25",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 42.96,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 382,
+      "date": "2026-03-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 383,
+      "date": "2026-03-24",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.95,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 384,
+      "date": "2026-03-24",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.51,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 385,
+      "date": "2026-03-24",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 386,
+      "date": "2026-03-23",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.95,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 387,
+      "date": "2026-03-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 388,
+      "date": "2026-03-22",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 34.29,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 389,
+      "date": "2026-03-22",
+      "name": "Shell Station A10",
+      "amount": 79.59,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 390,
+      "date": "2026-03-22",
+      "name": "LIDL AMSTERDAM",
+      "amount": 48.36,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 391,
+      "date": "2026-03-20",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 35.73,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 392,
+      "date": "2026-03-20",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.19,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 393,
+      "date": "2026-03-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 394,
+      "date": "2026-03-20",
+      "name": "Brouwerij 't IJ",
+      "amount": 56.36,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 395,
+      "date": "2026-03-19",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 396,
+      "date": "2026-03-19",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 34.42,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 397,
+      "date": "2026-03-18",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 67.86,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 398,
+      "date": "2026-03-17",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 29.0,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 399,
+      "date": "2026-03-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 400,
+      "date": "2026-03-17",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.5,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 401,
+      "date": "2026-03-16",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.6,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 402,
+      "date": "2026-03-16",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 403,
+      "date": "2026-03-15",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 23.31,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 404,
+      "date": "2026-03-15",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 14.33,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 405,
+      "date": "2026-03-14",
+      "name": "Zara Kalverstraat",
+      "amount": 22.26,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 406,
+      "date": "2026-03-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 407,
+      "date": "2026-03-12",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 408,
+      "date": "2026-03-12",
+      "name": "Action 2041",
+      "amount": 28.96,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 409,
+      "date": "2026-03-12",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 29.39,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 410,
+      "date": "2026-03-11",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 411,
+      "date": "2026-03-11",
+      "name": "HEMA Amsterdam",
+      "amount": 59.49,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 412,
+      "date": "2026-03-11",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.66,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 413,
+      "date": "2026-03-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 414,
+      "date": "2026-03-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 415,
+      "date": "2026-03-09",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 416,
+      "date": "2026-03-09",
+      "name": "Lot Sixty One",
+      "amount": 5.93,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 417,
+      "date": "2026-03-09",
+      "name": "AH to go Centraal",
+      "amount": 7.67,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 418,
+      "date": "2026-03-08",
+      "name": "Cafe de Klos",
+      "amount": 47.89,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 419,
+      "date": "2026-03-07",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 49.44,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 420,
+      "date": "2026-03-07",
+      "name": "Shell Station A10",
+      "amount": 68.24,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 421,
+      "date": "2026-03-07",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 37.88,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 422,
+      "date": "2026-03-07",
+      "name": "Etos Amsterdam",
+      "amount": 23.7,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": []
+    },
+    {
+      "row_id": 423,
+      "date": "2026-03-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 424,
+      "date": "2026-03-06",
+      "name": "Bol.com B.V.",
+      "amount": 44.47,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 425,
+      "date": "2026-03-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 426,
+      "date": "2026-03-04",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.03,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 427,
+      "date": "2026-03-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 428,
+      "date": "2026-03-02",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 429,
+      "date": "2026-03-02",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 27.09,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 430,
+      "date": "2026-03-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 431,
+      "date": "2026-03-02",
+      "name": "Bol.com B.V.",
+      "amount": 64.95,
+      "direction": "Bij",
+      "category": "Shopping",
+      "tags": [
+        "refund"
+      ]
+    },
+    {
+      "row_id": 432,
+      "date": "2026-03-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 433,
+      "date": "2026-03-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 434,
+      "date": "2026-03-01",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 52.59,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 435,
+      "date": "2026-03-01",
+      "name": "HEMA Amsterdam",
+      "amount": 91.74,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 436,
+      "date": "2026-03-01",
+      "name": "Bar Botanique",
+      "amount": 67.56,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 437,
+      "date": "2026-02-28",
+      "name": "LIDL AMSTERDAM",
+      "amount": 44.31,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 438,
+      "date": "2026-02-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 439,
+      "date": "2026-02-27",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 17.9,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 440,
+      "date": "2026-02-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 441,
+      "date": "2026-02-25",
+      "name": "Lot Sixty One",
+      "amount": 4.71,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 442,
+      "date": "2026-02-25",
+      "name": "Tikkie S. de Vries",
+      "amount": 9.64,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 443,
+      "date": "2026-02-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 444,
+      "date": "2026-02-24",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 47.85,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 445,
+      "date": "2026-02-23",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 446,
+      "date": "2026-02-23",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 55.06,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 447,
+      "date": "2026-02-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 448,
+      "date": "2026-02-22",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.92,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 449,
+      "date": "2026-02-22",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 30.29,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 450,
+      "date": "2026-02-21",
+      "name": "Shell Station A10",
+      "amount": 58.3,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 451,
+      "date": "2026-02-21",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 21.44,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 452,
+      "date": "2026-02-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 453,
+      "date": "2026-02-19",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 454,
+      "date": "2026-02-18",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 34.78,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 455,
+      "date": "2026-02-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 456,
+      "date": "2026-02-17",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 29.88,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 457,
+      "date": "2026-02-16",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 35.94,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 458,
+      "date": "2026-02-16",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 459,
+      "date": "2026-02-16",
+      "name": "Lot Sixty One",
+      "amount": 5.93,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 460,
+      "date": "2026-02-16",
+      "name": "LIDL AMSTERDAM",
+      "amount": 35.16,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 461,
+      "date": "2026-02-15",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.61,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 462,
+      "date": "2026-02-14",
+      "name": "Tikkie T. Visser",
+      "amount": 14.89,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 463,
+      "date": "2026-02-14",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 31.24,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 464,
+      "date": "2026-02-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 465,
+      "date": "2026-02-14",
+      "name": "HEMA Amsterdam",
+      "amount": 44.94,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 466,
+      "date": "2026-02-13",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.16,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 467,
+      "date": "2026-02-13",
+      "name": "Shell Station A10",
+      "amount": 65.33,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 468,
+      "date": "2026-02-13",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.61,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 469,
+      "date": "2026-02-13",
+      "name": "Bol.com B.V.",
+      "amount": 64.95,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": [
+        "duplicate"
+      ]
+    },
+    {
+      "row_id": 470,
+      "date": "2026-02-13",
+      "name": "Bol.com B.V.",
+      "amount": 64.95,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": [
+        "duplicate_original"
+      ]
+    },
+    {
+      "row_id": 471,
+      "date": "2026-02-13",
+      "name": "Tikkie M. Jansen",
+      "amount": 42.6,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 472,
+      "date": "2026-02-12",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.97,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 473,
+      "date": "2026-02-12",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 48.76,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 474,
+      "date": "2026-02-11",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 75.27,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 475,
+      "date": "2026-02-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 476,
+      "date": "2026-02-10",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 477,
+      "date": "2026-02-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 478,
+      "date": "2026-02-09",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 40.8,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 479,
+      "date": "2026-02-08",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 33.47,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 480,
+      "date": "2026-02-07",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.62,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 481,
+      "date": "2026-02-07",
+      "name": "Tikkie T. Visser",
+      "amount": 32.26,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 482,
+      "date": "2026-02-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 483,
+      "date": "2026-02-06",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 36.16,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 484,
+      "date": "2026-02-06",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 485,
+      "date": "2026-02-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 486,
+      "date": "2026-02-05",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 487,
+      "date": "2026-02-04",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 30.6,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 488,
+      "date": "2026-02-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 135.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 489,
+      "date": "2026-02-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 21.47,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 490,
+      "date": "2026-02-03",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 52.24,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 491,
+      "date": "2026-02-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 492,
+      "date": "2026-02-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 493,
+      "date": "2026-02-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 494,
+      "date": "2026-02-01",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 32.57,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 495,
+      "date": "2026-01-31",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 38.81,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 496,
+      "date": "2026-01-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 42.13,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 497,
+      "date": "2026-01-30",
+      "name": "Tikkie L. Bakker",
+      "amount": 19.18,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 498,
+      "date": "2026-01-30",
+      "name": "Coffee Company Wibautstr",
+      "amount": 3.49,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 499,
+      "date": "2026-01-30",
+      "name": "AH to go Centraal",
+      "amount": 5.23,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 500,
+      "date": "2026-01-29",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.1,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 501,
+      "date": "2026-01-28",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 502,
+      "date": "2026-01-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 503,
+      "date": "2026-01-27",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.29,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 504,
+      "date": "2026-01-27",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 44.63,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 505,
+      "date": "2026-01-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 506,
+      "date": "2026-01-26",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 28.35,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 507,
+      "date": "2026-01-25",
+      "name": "Cafe de Klos",
+      "amount": 49.35,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 508,
+      "date": "2026-01-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 509,
+      "date": "2026-01-24",
+      "name": "HEMA Amsterdam",
+      "amount": 86.29,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 510,
+      "date": "2026-01-23",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 511,
+      "date": "2026-01-23",
+      "name": "Cafe de Klos",
+      "amount": 19.48,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 512,
+      "date": "2026-01-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 513,
+      "date": "2026-01-22",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 514,
+      "date": "2026-01-21",
+      "name": "LIDL AMSTERDAM",
+      "amount": 36.56,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 515,
+      "date": "2026-01-21",
+      "name": "IKEA Amsterdam",
+      "amount": 67.32,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 516,
+      "date": "2026-01-20",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.36,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 517,
+      "date": "2026-01-20",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 518,
+      "date": "2026-01-19",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 519,
+      "date": "2026-01-18",
+      "name": "Shell Station A10",
+      "amount": 71.39,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 520,
+      "date": "2026-01-18",
+      "name": "Restaurant Floreyn",
+      "amount": 67.14,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 521,
+      "date": "2026-01-18",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 39.49,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 522,
+      "date": "2026-01-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 523,
+      "date": "2026-01-17",
+      "name": "Action 2041",
+      "amount": 12.18,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 524,
+      "date": "2026-01-16",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 61.83,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 525,
+      "date": "2026-01-15",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 29.4,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 526,
+      "date": "2026-01-15",
+      "name": "Etos Amsterdam",
+      "amount": 25.09,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": []
+    },
+    {
+      "row_id": 527,
+      "date": "2026-01-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 528,
+      "date": "2026-01-14",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 529,
+      "date": "2026-01-14",
+      "name": "LIDL AMSTERDAM",
+      "amount": 29.21,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 530,
+      "date": "2026-01-13",
+      "name": "Zara Kalverstraat",
+      "amount": 27.55,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 531,
+      "date": "2026-01-13",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.1,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 532,
+      "date": "2026-01-13",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 533,
+      "date": "2026-01-13",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 20.34,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 534,
+      "date": "2026-01-12",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 42.76,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 535,
+      "date": "2026-01-11",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.75,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 536,
+      "date": "2026-01-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 537,
+      "date": "2026-01-10",
+      "name": "AH to go Centraal",
+      "amount": 10.27,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 538,
+      "date": "2026-01-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 539,
+      "date": "2026-01-09",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 540,
+      "date": "2026-01-09",
+      "name": "Brouwerij 't IJ",
+      "amount": 20.49,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 541,
+      "date": "2026-01-08",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.8,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 542,
+      "date": "2026-01-08",
+      "name": "Shell Station A10",
+      "amount": 63.42,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 543,
+      "date": "2026-01-08",
+      "name": "Lot Sixty One",
+      "amount": 6.21,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 544,
+      "date": "2026-01-07",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 545,
+      "date": "2026-01-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 546,
+      "date": "2026-01-06",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 547,
+      "date": "2026-01-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 548,
+      "date": "2026-01-04",
+      "name": "Restaurant Floreyn",
+      "amount": 21.76,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 549,
+      "date": "2026-01-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 135.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 550,
+      "date": "2026-01-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.7,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 551,
+      "date": "2026-01-03",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 20.62,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 552,
+      "date": "2026-01-02",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 76.55,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 553,
+      "date": "2026-01-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 554,
+      "date": "2026-01-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 555,
+      "date": "2026-01-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 556,
+      "date": "2025-12-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 23.78,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 557,
+      "date": "2025-12-30",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 558,
+      "date": "2025-12-30",
+      "name": "LIDL AMSTERDAM",
+      "amount": 61.73,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 559,
+      "date": "2025-12-29",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 32.53,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 560,
+      "date": "2025-12-28",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 31.85,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 561,
+      "date": "2025-12-28",
+      "name": "Bol.com B.V.",
+      "amount": 48.54,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 562,
+      "date": "2025-12-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 563,
+      "date": "2025-12-27",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 77.0,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 564,
+      "date": "2025-12-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 565,
+      "date": "2025-12-26",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 566,
+      "date": "2025-12-26",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 24.07,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 567,
+      "date": "2025-12-25",
+      "name": "Lot Sixty One",
+      "amount": 3.97,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 568,
+      "date": "2025-12-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 569,
+      "date": "2025-12-24",
+      "name": "Lot Sixty One",
+      "amount": 5.94,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 570,
+      "date": "2025-12-23",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 68.1,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 571,
+      "date": "2025-12-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 572,
+      "date": "2025-12-20",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 40.93,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 573,
+      "date": "2025-12-20",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 40.62,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 574,
+      "date": "2025-12-19",
+      "name": "Cafe de Klos",
+      "amount": 66.61,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 575,
+      "date": "2025-12-18",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 576,
+      "date": "2025-12-18",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.36,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 577,
+      "date": "2025-12-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 578,
+      "date": "2025-12-17",
+      "name": "Lot Sixty One",
+      "amount": 5.08,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 579,
+      "date": "2025-12-16",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 25.1,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 580,
+      "date": "2025-12-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 581,
+      "date": "2025-12-14",
+      "name": "Bar Botanique",
+      "amount": 64.34,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 582,
+      "date": "2025-12-14",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 77.28,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 583,
+      "date": "2025-12-13",
+      "name": "Cafe de Klos",
+      "amount": 72.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 584,
+      "date": "2025-12-13",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 76.78,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 585,
+      "date": "2025-12-12",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.56,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 586,
+      "date": "2025-12-12",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 56.91,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 587,
+      "date": "2025-12-11",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 588,
+      "date": "2025-12-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 589,
+      "date": "2025-12-10",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 6.16,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 590,
+      "date": "2025-12-10",
+      "name": "LIDL AMSTERDAM",
+      "amount": 14.89,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 591,
+      "date": "2025-12-10",
+      "name": "IKEA Amsterdam",
+      "amount": 37.21,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 592,
+      "date": "2025-12-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 593,
+      "date": "2025-12-09",
+      "name": "Coffee Company Wibautstr",
+      "amount": 3.71,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 594,
+      "date": "2025-12-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 595,
+      "date": "2025-12-06",
+      "name": "LIDL AMSTERDAM",
+      "amount": 28.02,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 596,
+      "date": "2025-12-05",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 38.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 597,
+      "date": "2025-12-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 598,
+      "date": "2025-12-05",
+      "name": "Lot Sixty One",
+      "amount": 6.31,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 599,
+      "date": "2025-12-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 135.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 600,
+      "date": "2025-12-03",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 601,
+      "date": "2025-12-02",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 602,
+      "date": "2025-12-02",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.39,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 603,
+      "date": "2025-12-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 604,
+      "date": "2025-12-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 605,
+      "date": "2025-12-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 606,
+      "date": "2025-12-01",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 607,
+      "date": "2025-12-01",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 72.94,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 608,
+      "date": "2025-12-01",
+      "name": "Bol.com B.V.",
+      "amount": 34.23,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 609,
+      "date": "2025-11-30",
+      "name": "LIDL AMSTERDAM",
+      "amount": 20.38,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 610,
+      "date": "2025-11-30",
+      "name": "Brouwerij 't IJ",
+      "amount": 62.55,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 611,
+      "date": "2025-11-29",
+      "name": "LIDL AMSTERDAM",
+      "amount": 16.79,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 612,
+      "date": "2025-11-28",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 613,
+      "date": "2025-11-28",
+      "name": "Coolblue B.V.",
+      "amount": 1299.0,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": [
+        "big_purchase",
+        "black_friday"
+      ]
+    },
+    {
+      "row_id": 614,
+      "date": "2025-11-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 615,
+      "date": "2025-11-27",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 4.42,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 616,
+      "date": "2025-11-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 617,
+      "date": "2025-11-26",
+      "name": "AH to go Centraal",
+      "amount": 9.18,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 618,
+      "date": "2025-11-25",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.38,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 619,
+      "date": "2025-11-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 620,
+      "date": "2025-11-24",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 30.92,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 621,
+      "date": "2025-11-24",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 77.24,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 622,
+      "date": "2025-11-23",
+      "name": "Brouwerij 't IJ",
+      "amount": 64.37,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 623,
+      "date": "2025-11-23",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 35.33,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 624,
+      "date": "2025-11-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 625,
+      "date": "2025-11-21",
+      "name": "Coffee Company Wibautstr",
+      "amount": 6.66,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 626,
+      "date": "2025-11-20",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 61.93,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 627,
+      "date": "2025-11-19",
+      "name": "LIDL AMSTERDAM",
+      "amount": 18.56,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 628,
+      "date": "2025-11-18",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 629,
+      "date": "2025-11-18",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 17.85,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 630,
+      "date": "2025-11-18",
+      "name": "Coffee Company Wibautstr",
+      "amount": 3.83,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 631,
+      "date": "2025-11-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 632,
+      "date": "2025-11-16",
+      "name": "HEMA Amsterdam",
+      "amount": 78.76,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 633,
+      "date": "2025-11-15",
+      "name": "Cafe de Klos",
+      "amount": 50.72,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 634,
+      "date": "2025-11-15",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 17.49,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 635,
+      "date": "2025-11-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 636,
+      "date": "2025-11-14",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 637,
+      "date": "2025-11-14",
+      "name": "Lot Sixty One",
+      "amount": 6.72,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 638,
+      "date": "2025-11-14",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 21.65,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 639,
+      "date": "2025-11-13",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 39.88,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 640,
+      "date": "2025-11-12",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 38.57,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 641,
+      "date": "2025-11-12",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 642,
+      "date": "2025-11-12",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 62.03,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 643,
+      "date": "2025-11-12",
+      "name": "Tikkie M. Jansen",
+      "amount": 34.64,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 644,
+      "date": "2025-11-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 645,
+      "date": "2025-11-10",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 46.38,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 646,
+      "date": "2025-11-09",
+      "name": "Restaurant Floreyn",
+      "amount": 66.47,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 647,
+      "date": "2025-11-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 648,
+      "date": "2025-11-08",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 37.84,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 649,
+      "date": "2025-11-08",
+      "name": "Cafe de Klos",
+      "amount": 70.95,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 650,
+      "date": "2025-11-07",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 19.71,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 651,
+      "date": "2025-11-07",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.44,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 652,
+      "date": "2025-11-07",
+      "name": "Brouwerij 't IJ",
+      "amount": 56.16,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 653,
+      "date": "2025-11-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 654,
+      "date": "2025-11-06",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 655,
+      "date": "2025-11-06",
+      "name": "LIDL AMSTERDAM",
+      "amount": 25.63,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 656,
+      "date": "2025-11-06",
+      "name": "IKEA Amsterdam",
+      "amount": 13.48,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 657,
+      "date": "2025-11-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 658,
+      "date": "2025-11-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 135.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 659,
+      "date": "2025-11-03",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 39.26,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 660,
+      "date": "2025-11-03",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 16.8,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 661,
+      "date": "2025-11-03",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 17.99,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 662,
+      "date": "2025-11-02",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 22.59,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 663,
+      "date": "2025-11-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 664,
+      "date": "2025-11-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 665,
+      "date": "2025-11-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 666,
+      "date": "2025-10-31",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 41.03,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 667,
+      "date": "2025-10-31",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 58.01,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 668,
+      "date": "2025-10-30",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 24.63,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 669,
+      "date": "2025-10-30",
+      "name": "LIDL AMSTERDAM",
+      "amount": 62.07,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 670,
+      "date": "2025-10-28",
+      "name": "Lot Sixty One",
+      "amount": 6.59,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 671,
+      "date": "2025-10-28",
+      "name": "Basic-Fit Nederland B.V.",
+      "amount": 34.99,
+      "direction": "Af",
+      "category": "Health & Fitness",
+      "tags": [
+        "recurring",
+        "subscription",
+        "forgotten_gym"
+      ]
+    },
+    {
+      "row_id": 672,
+      "date": "2025-10-28",
+      "name": "Tikkie L. Bakker",
+      "amount": 37.07,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 673,
+      "date": "2025-10-27",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 34.28,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 674,
+      "date": "2025-10-27",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 47.27,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 675,
+      "date": "2025-10-26",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 28.99,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 676,
+      "date": "2025-10-26",
+      "name": "Oranje Spaarrekening",
+      "amount": 400.0,
+      "direction": "Af",
+      "category": "Savings",
+      "tags": [
+        "savings"
+      ]
+    },
+    {
+      "row_id": 677,
+      "date": "2025-10-26",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 70.13,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 678,
+      "date": "2025-10-25",
+      "name": "Zara Kalverstraat",
+      "amount": 39.2,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 679,
+      "date": "2025-10-25",
+      "name": "Nexora Digital B.V.",
+      "amount": 3900.0,
+      "direction": "Bij",
+      "category": "Income",
+      "tags": [
+        "salary"
+      ]
+    },
+    {
+      "row_id": 680,
+      "date": "2025-10-24",
+      "name": "LIDL AMSTERDAM",
+      "amount": 25.33,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 681,
+      "date": "2025-10-24",
+      "name": "Tikkie T. Visser",
+      "amount": 38.21,
+      "direction": "Bij",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 682,
+      "date": "2025-10-23",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 27.23,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 683,
+      "date": "2025-10-23",
+      "name": "Coffee Company Wibautstr",
+      "amount": 4.47,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 684,
+      "date": "2025-10-22",
+      "name": "Waternet",
+      "amount": 28.4,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 685,
+      "date": "2025-10-22",
+      "name": "Tikkie L. Bakker",
+      "amount": 13.48,
+      "direction": "Af",
+      "category": "Transfers",
+      "tags": [
+        "tikkie"
+      ]
+    },
+    {
+      "row_id": 686,
+      "date": "2025-10-22",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 26.67,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 687,
+      "date": "2025-10-22",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 688,
+      "date": "2025-10-22",
+      "name": "Bol.com B.V.",
+      "amount": 90.27,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 689,
+      "date": "2025-10-21",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 49.41,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 690,
+      "date": "2025-10-20",
+      "name": "Lot Sixty One",
+      "amount": 5.73,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 691,
+      "date": "2025-10-20",
+      "name": "IKEA Amsterdam",
+      "amount": 34.75,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 692,
+      "date": "2025-10-17",
+      "name": "Spotify AB",
+      "amount": 11.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 693,
+      "date": "2025-10-17",
+      "name": "Lot Sixty One",
+      "amount": 4.09,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 694,
+      "date": "2025-10-16",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.01,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 695,
+      "date": "2025-10-16",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 76.0,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 696,
+      "date": "2025-10-15",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 69.34,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 697,
+      "date": "2025-10-14",
+      "name": "Odido Netherlands B.V.",
+      "amount": 25.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 698,
+      "date": "2025-10-14",
+      "name": "Lot Sixty One",
+      "amount": 3.55,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 699,
+      "date": "2025-10-13",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 34.03,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 700,
+      "date": "2025-10-13",
+      "name": "Starbucks Amsterdam CS",
+      "amount": 5.82,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 701,
+      "date": "2025-10-12",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 27.71,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 702,
+      "date": "2025-10-11",
+      "name": "Cafe de Klos",
+      "amount": 51.53,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 703,
+      "date": "2025-10-11",
+      "name": "Bol.com B.V.",
+      "amount": 28.69,
+      "direction": "Af",
+      "category": "Shopping",
+      "tags": []
+    },
+    {
+      "row_id": 704,
+      "date": "2025-10-11",
+      "name": "Apple.com/bill",
+      "amount": 2.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 705,
+      "date": "2025-10-10",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 31.14,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 706,
+      "date": "2025-10-10",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 61.05,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 707,
+      "date": "2025-10-09",
+      "name": "Netflix International B.V.",
+      "amount": 13.99,
+      "direction": "Af",
+      "category": "Subscriptions",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 708,
+      "date": "2025-10-09",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 11.2,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 709,
+      "date": "2025-10-09",
+      "name": "Lot Sixty One",
+      "amount": 6.61,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 710,
+      "date": "2025-10-08",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 711,
+      "date": "2025-10-08",
+      "name": "AH to go Centraal",
+      "amount": 10.96,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 712,
+      "date": "2025-10-07",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 39.35,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 713,
+      "date": "2025-10-07",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 714,
+      "date": "2025-10-07",
+      "name": "Lot Sixty One",
+      "amount": 4.42,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 715,
+      "date": "2025-10-07",
+      "name": "Jumbo Amsterdam Oost",
+      "amount": 43.96,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 716,
+      "date": "2025-10-06",
+      "name": "Ziggo Services B.V.",
+      "amount": 52.5,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 717,
+      "date": "2025-10-06",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    },
+    {
+      "row_id": 718,
+      "date": "2025-10-06",
+      "name": "Coffee Company Wibautstr",
+      "amount": 5.03,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 719,
+      "date": "2025-10-06",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 49.93,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 720,
+      "date": "2025-10-05",
+      "name": "Swapfiets",
+      "amount": 19.9,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": [
+        "recurring",
+        "subscription"
+      ]
+    },
+    {
+      "row_id": 721,
+      "date": "2025-10-05",
+      "name": "Sumo Sushi Amsterdam",
+      "amount": 67.95,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 722,
+      "date": "2025-10-05",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 63.17,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 723,
+      "date": "2025-10-04",
+      "name": "ALBERT HEIJN 1427",
+      "amount": 56.89,
+      "direction": "Af",
+      "category": "Groceries",
+      "tags": []
+    },
+    {
+      "row_id": 724,
+      "date": "2025-10-03",
+      "name": "Vattenfall Klantenservice N.V.",
+      "amount": 112.0,
+      "direction": "Af",
+      "category": "Utilities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 725,
+      "date": "2025-10-03",
+      "name": "Bar Botanique",
+      "amount": 62.06,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": []
+    },
+    {
+      "row_id": 726,
+      "date": "2025-10-02",
+      "name": "Centraal Beheer",
+      "amount": 21.9,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 727,
+      "date": "2025-10-01",
+      "name": "Zilveren Kruis Zorgverzekeringen",
+      "amount": 148.25,
+      "direction": "Af",
+      "category": "Insurance",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 728,
+      "date": "2025-10-01",
+      "name": "Woonstichting De Grachten",
+      "amount": 1450.0,
+      "direction": "Af",
+      "category": "Housing",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "row_id": 729,
+      "date": "2025-10-01",
+      "name": "Thuisbezorgd.nl via Stichting Mollie Payments",
+      "amount": 37.53,
+      "direction": "Af",
+      "category": "Eating Out",
+      "tags": [
+        "takeaway"
+      ]
+    },
+    {
+      "row_id": 730,
+      "date": "2025-10-01",
+      "name": "NS Groep IZ NS Reizigers",
+      "amount": 8.4,
+      "direction": "Af",
+      "category": "Transport",
+      "tags": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "question": "How much did I spend on takeaway (Thuisbezorgd) in total over the last 12 months?",
+      "answer": 3075.86,
+      "type": "number",
+      "tolerance": 1.0
+    },
+    {
+      "id": "q02",
+      "question": "Is my takeaway spending going up or down? Compare the first and last 3 months.",
+      "answer": {
+        "first_3_months": 668.53,
+        "last_3_months": 871.14,
+        "change_pct": 30.3
+      },
+      "type": "trend",
+      "expected_direction": "up"
+    },
+    {
+      "id": "q03",
+      "question": "Which subscriptions am I paying for?",
+      "answer": [
+        "Apple.com/bill",
+        "Basic-Fit Nederland B.V.",
+        "Netflix International B.V.",
+        "Spotify AB",
+        "Swapfiets"
+      ],
+      "type": "list"
+    },
+    {
+      "id": "q04",
+      "question": "How much do my subscriptions cost per month (September 2026)?",
+      "answer": 84.86,
+      "type": "number",
+      "tolerance": 0.5
+    },
+    {
+      "id": "q05",
+      "question": "Did any of my subscriptions get more expensive?",
+      "answer": {
+        "merchant": "Spotify AB",
+        "old": 11.99,
+        "new": 12.99,
+        "since": "2026-07"
+      },
+      "type": "fact"
+    },
+    {
+      "id": "q06",
+      "question": "Am I paying for something I might not use?",
+      "answer": {
+        "merchant": "Basic-Fit Nederland B.V.",
+        "monthly": 34.99,
+        "yearly": 419.88
+      },
+      "type": "fact",
+      "note": "Gym membership with no other fitness activity; judgement question"
+    },
+    {
+      "id": "q07",
+      "question": "Was I charged twice for anything?",
+      "answer": {
+        "merchant": "Bol.com B.V.",
+        "amount": 64.95,
+        "date": "2026-02-13",
+        "refunded_on": "2026-03-02"
+      },
+      "type": "fact"
+    },
+    {
+      "id": "q08",
+      "question": "What was my biggest single purchase?",
+      "answer": {
+        "merchant": "Coolblue B.V.",
+        "amount": 1299.0,
+        "date": "2025-11-28"
+      },
+      "type": "fact"
+    },
+    {
+      "id": "q09",
+      "question": "How much did I spend on groceries per month on average?",
+      "answer": 582.53,
+      "type": "number",
+      "tolerance": 1.0
+    },
+    {
+      "id": "q10",
+      "question": "When did my salary change and by how much?",
+      "answer": {
+        "old": 3900.0,
+        "new": 4150.0,
+        "since": "2026-04"
+      },
+      "type": "fact"
+    },
+    {
+      "id": "q11",
+      "question": "What percentage of my income did I move to savings?",
+      "answer": 9.9,
+      "type": "number",
+      "tolerance": 0.5,
+      "note": "savings 4800.0 / income 48612.0 (salary + tax refund)"
+    },
+    {
+      "id": "q12",
+      "question": "How much did I spend on rent in total?",
+      "answer": 17400.0,
+      "type": "number",
+      "tolerance": 0.01
+    },
+    {
+      "id": "q13",
+      "question": "What is my account balance at the end of September 2026?",
+      "answer": 4880.22,
+      "type": "number",
+      "tolerance": 0.01
+    },
+    {
+      "id": "q14",
+      "question": "Spending per category for the full year (excluding savings and transfers)",
+      "answer": {
+        "Housing": 17400.0,
+        "Utilities": 2706.8,
+        "Insurance": 2041.8,
+        "Subscriptions": 350.64,
+        "Groceries": 6990.35,
+        "Eating Out": 6181.76,
+        "Transport": 2098.14,
+        "Shopping": 3304.08,
+        "Health & Fitness": 491.62,
+        "Other": 412.6
+      },
+      "type": "table"
+    }
+  ]
+}
