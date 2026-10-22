@@ -17,18 +17,19 @@ export type Filters = {
   direction?: "out" | "in" | "any";
 };
 
+/** Accepts both YYYY-MM-DD and YYYY-MM; compares on the same precision. */
+function inDateRange(d: string, f: Pick<Filters, "from" | "to">): boolean {
+  return (!f.from || d.slice(0, f.from.length) >= f.from) && (!f.to || d.slice(0, f.to.length) <= f.to);
+}
+
 export function applyFilters(txs: Transaction[], f: Filters): Transaction[] {
   const m = f.merchant?.toLowerCase();
   const c = f.category?.toLowerCase();
-  // Accept both YYYY-MM-DD and YYYY-MM; compare on the same precision.
-  const geFrom = (d: string) => !f.from || d.slice(0, f.from.length) >= f.from;
-  const leTo = (d: string) => !f.to || d.slice(0, f.to.length) <= f.to;
   return txs.filter(
     (t) =>
       (!c || (t.category ?? "").toLowerCase() === c) &&
       (!m || t.description.toLowerCase().includes(m) || t.note.toLowerCase().includes(m)) &&
-      geFrom(t.date) &&
-      leTo(t.date) &&
+      inDateRange(t.date, f) &&
       (f.direction === "in" ? t.amount > 0 : f.direction === "any" ? true : t.amount < 0),
   );
 }
@@ -73,10 +74,15 @@ export function summarizeSpending(
   }
   const out = [...groups.entries()].map(([key, g]) => ({ key, total: r2(g.total), count: g.count }));
   out.sort((a, b) => (by === "month" ? a.key.localeCompare(b.key) : b.total - a.total));
+  // Calendar months covered by the date filter (counted from ALL data, so a month with no matching spend still counts)
+  const monthsInRange = new Set(txs.filter((t) => inDateRange(t.date, args)).map((t) => month(t.date))).size || 1;
+  const grandTotal = r2(out.reduce((s, g) => s + g.total, 0));
   return {
     group_by: by,
     filters: args,
-    grand_total: r2(out.reduce((s, g) => s + g.total, 0)),
+    grand_total: grandTotal,
+    months_in_range: monthsInRange,
+    average_per_month: r2(grandTotal / monthsInRange),
     transaction_count: rows.length,
     groups: out.slice(0, 40),
   };
@@ -84,9 +90,13 @@ export function summarizeSpending(
 
 export function listTransactions(
   txs: Transaction[],
-  args: Filters & { min_amount?: number; sort?: "date" | "amount"; limit?: number },
+  args: Filters & { min_amount?: number; sort?: "date" | "amount"; limit?: number; exclude_recurring?: boolean },
 ) {
   let rows = applyFilters(txs, { ...args, direction: args.direction ?? "any" });
+  if (args.exclude_recurring) {
+    const recurring = new Set(findRecurring(txs).recurring.map((r) => r.merchant));
+    rows = rows.filter((t) => !recurring.has(t.description));
+  }
   if (args.min_amount) rows = rows.filter((t) => Math.abs(t.amount) >= (args.min_amount as number));
   rows = [...rows].sort((a, b) =>
     args.sort === "amount" ? Math.abs(b.amount) - Math.abs(a.amount) : b.date.localeCompare(a.date),
@@ -105,6 +115,21 @@ export function listTransactions(
   };
 }
 
+/** Recurring charges you can't easily cancel: housing, utilities, insurance and your own savings transfers. */
+const ESSENTIAL = new Set(["Housing", "Utilities", "Insurance", "Savings"]);
+
+type RecurringCharge = {
+  merchant: string;
+  category?: string;
+  months_charged: number;
+  first_month: string;
+  last_month: string;
+  latest_amount: number;
+  essential: boolean;
+  price_change: { from: number; to: number; first_seen: string | null } | null;
+  yearly_cost_at_latest_price: number;
+};
+
 /** Merchants charged in >= 3 different months with a stable-ish amount. */
 export function findRecurring(txs: Transaction[]) {
   const byMerchant = new Map<string, Transaction[]>();
@@ -112,7 +137,7 @@ export function findRecurring(txs: Transaction[]) {
     const k = t.description;
     byMerchant.set(k, [...(byMerchant.get(k) ?? []), t]);
   }
-  const out = [];
+  const out: RecurringCharge[] = [];
   for (const [merchant, list] of byMerchant) {
     const months = [...new Set(list.map((t) => month(t.date)))].sort();
     if (months.length < 3) continue;
@@ -136,13 +161,38 @@ export function findRecurring(txs: Transaction[]) {
       first_month: months[0],
       last_month: months[months.length - 1],
       latest_amount: r2(latest),
+      essential: ESSENTIAL.has(list[0].category ?? ""),
       price_change:
         latest !== first ? { from: r2(first), to: r2(latest), first_seen: change ? month(change.date) : null } : null,
       yearly_cost_at_latest_price: r2(latest * 12),
     });
   }
   out.sort((a, b) => b.latest_amount - a.latest_amount);
-  return { recurring: out, monthly_total: r2(out.reduce((s, r) => s + r.latest_amount, 0)) };
+  const discretionary = out.filter((r) => !r.essential);
+  const sum = (l: RecurringCharge[]) => r2(l.reduce((s, r) => s + r.latest_amount, 0));
+  return {
+    recurring: out,
+    monthly_total: sum(out),
+    // "Subscriptions" / "memberships" = the non-essential recurring charges (streaming, gym, bike, ...)
+    discretionary_monthly_total: sum(discretionary),
+    discretionary_yearly_total: r2(sum(discretionary) * 12),
+  };
+}
+
+/** Account balance after the last transaction on or before `date` (YYYY-MM-DD or YYYY-MM; default: latest). */
+export function getBalance(txs: Transaction[], args: { date?: string }) {
+  const withBalance = txs.filter((t) => typeof t.balance === "number");
+  if (!withBalance.length)
+    return { available: false, note: "This file has no balance column, so the account balance is unknown." };
+  // Banks differ: ING exports newest-first, Revolut oldest-first. Order same-day rows chronologically accordingly.
+  const newestFirst = txs.length > 1 && txs[0].date >= txs[txs.length - 1].date;
+  const chrono = [...withBalance].sort(
+    (a, b) => a.date.localeCompare(b.date) || (newestFirst ? b.id - a.id : a.id - b.id),
+  );
+  const upTo = args.date ? chrono.filter((t) => t.date.slice(0, args.date!.length) <= args.date!) : chrono;
+  const last = upTo[upTo.length - 1];
+  if (!last) return { available: false, note: `No transactions on or before ${args.date}.` };
+  return { available: true, balance: last.balance, as_of_transaction_date: last.date, requested_date: args.date ?? "latest" };
 }
 
 /** Same merchant + amount + date charged more than once, plus any matching refund. */
@@ -192,7 +242,7 @@ export const TOOL_SCHEMAS = [
     function: {
       name: "summarize_spending",
       description:
-        "Sum amounts grouped by category, month or merchant, with optional filters. Excludes Income/Savings/Transfers unless a category is given or include_non_spending is true.",
+        "Sum amounts grouped by category, month or merchant, with optional filters. Excludes Income/Savings/Transfers unless a category is given or include_non_spending is true. Also returns average_per_month (computed in code: always use it for averages, never divide yourself).",
       parameters: {
         type: "object",
         properties: {
@@ -207,7 +257,8 @@ export const TOOL_SCHEMAS = [
     type: "function",
     function: {
       name: "list_transactions",
-      description: "List individual transactions matching filters, newest first or largest first.",
+      description:
+        "List individual transactions matching filters, newest first or largest first. direction defaults to 'any' (income AND spending): use direction 'out' for purchases/spending. Set exclude_recurring true for 'biggest/largest purchase' style questions so rent, bills and subscriptions don't count as purchases.",
       parameters: {
         type: "object",
         properties: {
@@ -215,6 +266,7 @@ export const TOOL_SCHEMAS = [
           min_amount: { type: "number" },
           sort: { type: "string", enum: ["date", "amount"] },
           limit: { type: "number", description: "max 50, default 15" },
+          exclude_recurring: { type: "boolean", description: "Skip recurring charges (rent, bills, subscriptions)" },
         },
       },
     },
@@ -223,8 +275,17 @@ export const TOOL_SCHEMAS = [
     type: "function",
     function: {
       name: "find_recurring",
-      description: "Detect recurring charges (subscriptions, bills, memberships) including price changes and yearly cost.",
+      description:
+        "Detect recurring charges including price changes and yearly cost. Each has essential=true (housing, utilities, insurance, savings transfers) or false. 'Subscriptions'/'memberships' means the non-essential ones: report those and use discretionary_monthly_total / discretionary_yearly_total.",
       parameters: { type: "object", properties: {} },
+    },
+  },
+  {
+    type: "function",
+    function: {
+      name: "get_balance",
+      description: "Account balance after the last transaction on or before a date (YYYY-MM-DD or YYYY-MM). Omit date for the latest balance.",
+      parameters: { type: "object", properties: { date: { type: "string" } } },
     },
   },
   {
@@ -249,6 +310,8 @@ export function runTool(name: string, args: Record<string, unknown>, txs: Transa
       return findRecurring(txs);
     case "find_duplicates":
       return findDuplicates(txs);
+    case "get_balance":
+      return getBalance(txs, args as { date?: string });
     default:
       return { error: `Unknown tool ${name}` };
   }

@@ -70,6 +70,7 @@ export function parseBankCsv(text: string): ParseResult {
       dir: h.indexOf("Af Bij"),
       amount: h.findIndex((x) => x.startsWith("Bedrag")),
       note: h.indexOf("Mededelingen"),
+      balance: h.indexOf("Saldo na mutatie"),
     };
     return {
       format: "ING",
@@ -82,6 +83,7 @@ export function parseBankCsv(text: string): ParseResult {
           amount: r[i.dir]?.trim() === "Af" ? -amt : amt,
           note: (r[i.note] ?? "").trim(),
           counterparty: (r[i.counter] ?? "").trim(),
+          balance: i.balance >= 0 && (r[i.balance] ?? "").trim() ? parseAmount(r[i.balance]) : undefined,
         };
       }),
     };
@@ -99,6 +101,7 @@ export function parseBankCsv(text: string): ParseResult {
       fee: h.indexOf("Fee"),
       currency: h.indexOf("Currency"),
       state: h.indexOf("State"),
+      balance: h.indexOf("Balance"),
     };
     const kept = rows.filter((r) => {
       const st = (r[i.state] ?? "").trim().toUpperCase();
@@ -120,6 +123,7 @@ export function parseBankCsv(text: string): ParseResult {
             .filter(Boolean)
             .join(" · "),
           counterparty: "",
+          balance: i.balance >= 0 && (r[i.balance] ?? "").trim() ? parseAmount(r[i.balance]) : undefined,
         };
       }),
     };

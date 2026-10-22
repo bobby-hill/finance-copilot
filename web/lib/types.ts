@@ -5,6 +5,7 @@ export type Transaction = {
   amount: number; // negative = money out, positive = money in
   note: string; // free-text details from the bank
   counterparty: string; // IBAN if known
+  balance?: number; // account balance after this transaction, when the bank provides it
   category?: string;
 };
 

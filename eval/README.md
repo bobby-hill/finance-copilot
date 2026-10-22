@@ -46,3 +46,22 @@ Replaces IBANs, private persons' names, IDs/references, e-mails, phone numbers, 
 are kept so categorization still works. It prints which names it treated as people and which it kept: **review both
 lists** and rerun with `--person` / `--keep` / `--redact` if needed. Optional: `--scale-amounts 0.9`, `--shift-days -14`.
 Keep the original export **outside** this repo.
+
+## Chat agent eval (`eval_chat.py`)
+Tests the whole agent end to end against the answer key's 14 questions. Needs the app running (`cd ../web && npm run dev`).
+```bash
+python3 eval_chat.py                      # 14 questions, true categories from the key (tests the agent in isolation)
+python3 eval_chat.py --runs 3             # repeat: LLMs vary, so look at how stable each answer is
+python3 eval_chat.py --categorize         # also run /api/categorize first (whole pipeline)
+python3 eval_chat.py --judge              # LLM-as-judge for the open-ended question (q06)
+python3 eval_chat.py --only q01,q05 -v    # subset, print the answers
+python3 eval_chat.py --price-in 0.40 --price-out 1.60   # $ per million tokens -> cost per question
+```
+It reports, per question: **pass/fail** (numbers within tolerance, required facts mentioned), whether a **sensible tool**
+was called, **grounding** (any number in the answer that appears in no tool result means the model did its own math),
+and tokens / tool calls / seconds. Full answers and tool traces are saved to `results/chat/`.
+
+History: the first run (10/14) exposed four real problems, fixed in the tools rather than the prompt:
+no balance tool (q13), the model dividing by itself for averages (q09), no notion of "subscription" vs essential
+bills (q04), and rent/income counting as "purchases" (q08). Numbers are scored strictly: exact to the cent, or
+correctly rounded to whole euros.
