@@ -1,9 +1,17 @@
 "use client";
 
 import { useRef, useState } from "react";
+import DotGlow from "./DotGlow";
 import Logo from "./Logo";
+import ThemeToggle from "./ThemeToggle";
 
 type Props = { onLoad: (text: string, name: string) => void; busy: boolean; count: number; error: string | null };
+
+const STAGES = [
+  { n: "01", when: "In your browser", what: "Your CSV is read locally. The file itself is never uploaded." },
+  { n: "02", when: "Once per merchant", what: "A model labels each merchant a single time, not each transaction." },
+  { n: "03", when: "On every question", what: "An agent calls tools that do the sums, so every figure is exact." },
+];
 
 export default function Landing({ onLoad, busy, count, error }: Props) {
   const input = useRef<HTMLInputElement>(null);
@@ -18,83 +26,98 @@ export default function Landing({ onLoad, busy, count, error }: Props) {
   }
 
   return (
-    <div className="glow flex min-h-screen flex-col">
-      <header className="mx-auto flex w-full max-w-5xl items-center gap-3 px-6 py-6">
-        <Logo />
-        <span className="font-semibold tracking-tight">Ledger</span>
-      </header>
-      <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col justify-center px-6 pb-24">
-        <p className="rise mb-4 font-mono text-xs uppercase tracking-[0.2em] text-mint-400">AI finance copilot</p>
-        <h1 className="rise text-4xl font-semibold leading-tight tracking-tight sm:text-5xl" style={{ animationDelay: "60ms" }}>
-          Drop in your bank export.
-          <br />
-          <span className="text-ink-400">Ask it anything.</span>
-        </h1>
-        <p className="rise mt-5 max-w-xl text-ink-300" style={{ animationDelay: "120ms" }}>
-          Transactions are categorized by an LLM, then an agent answers your questions by calling deterministic tools,
-          so every number is computed from your data, never guessed.
-        </p>
+    <div className="min-h-screen">
+      <section
+        className="relative flex min-h-svh flex-col overflow-hidden px-4 pb-10 transition-colors sm:px-10"
+        style={drag ? { background: "var(--surface-2)" } : undefined}
+        onDragOver={(e) => {
+          e.preventDefault();
+          setDrag(true);
+        }}
+        onDragLeave={() => setDrag(false)}
+        onDrop={(e) => {
+          e.preventDefault();
+          setDrag(false);
+          const f = e.dataTransfer.files[0];
+          if (f) readFile(f);
+        }}
+      >
+        <div className="dots" aria-hidden />
+        <DotGlow />
+        <header className="relative flex items-center justify-between py-5 text-[15px]">
+          <span className="flex items-center gap-2.5 font-semibold">
+            <Logo />
+            Ledger
+          </span>
+          <div className="flex items-center gap-5">
+            <a href="#how" className="link">
+              How it works
+            </a>
+            <ThemeToggle />
+          </div>
+        </header>
 
-        <div
-          className={`rise mt-10 rounded-2xl border border-dashed p-8 text-center transition ${
-            drag ? "border-mint-400 bg-mint-500/5" : "border-ink-600 bg-ink-900/60"
-          }`}
-          style={{ animationDelay: "180ms" }}
-          onDragOver={(e) => {
-            e.preventDefault();
-            setDrag(true);
-          }}
-          onDragLeave={() => setDrag(false)}
-          onDrop={(e) => {
-            e.preventDefault();
-            setDrag(false);
-            const f = e.dataTransfer.files[0];
-            if (f) readFile(f);
-          }}
-        >
-          {busy ? (
-            <div className="flex flex-col items-center gap-3 py-4">
-              <div className="h-8 w-8 animate-spin rounded-full border-2 border-ink-600 border-t-mint-400" />
-              <p className="text-ink-300">
-                Categorizing <span className="num font-medium text-ink-100">{count}</span> transactions…
-              </p>
-              <p className="text-xs text-ink-400">Grouping by merchant so each one is labeled once</p>
-            </div>
-          ) : (
-            <>
-              <p className="text-ink-100">Drag a CSV here</p>
-              <p className="mt-1 text-sm text-ink-400">ING export, or any CSV with date / description / amount columns</p>
-              <div className="mt-6 flex flex-wrap justify-center gap-3">
-                <button
-                  onClick={() => input.current?.click()}
-                  className="rounded-xl border border-ink-600 bg-ink-800 px-4 py-2.5 text-sm font-medium hover:bg-ink-700"
-                >
-                  Choose file
+        <div className="relative my-auto max-w-[1200px] py-16">
+          <p className="eyebrow rise mb-8">AI finance copilot</p>
+          <h1 className="display text-[clamp(2.75rem,8.5vw,8rem)]">
+            <span className="mask-line">
+              <span className="text-muted">Drop in your</span>
+            </span>
+            <span className="mask-line">
+              <span>bank export.</span>
+            </span>
+          </h1>
+
+          <div className="rise mt-12 max-w-[44ch]" style={{ animationDelay: "500ms" }}>
+            <p className="text-[clamp(1.05rem,1.3vw,1.25rem)] leading-snug text-muted">
+              {busy
+                ? `Categorizing ${count} transactions, one label per merchant…`
+                : "Then ask it anything. Every number is computed from your data, never guessed."}
+            </p>
+            {!busy && (
+              <div className="mt-8 flex flex-wrap items-center gap-3">
+                <button onClick={sample} className="btn">
+                  Try with sample data
                 </button>
-                <button
-                  onClick={sample}
-                  className="rounded-xl bg-mint-400 px-4 py-2.5 text-sm font-semibold text-ink-950 shadow-[0_0_30px_-8px_rgba(94,234,212,.7)] hover:bg-mint-500"
-                >
-                  Try with sample data →
+                <button onClick={() => input.current?.click()} className="btn-ghost">
+                  Choose a CSV
                 </button>
+                <input
+                  ref={input}
+                  type="file"
+                  accept=".csv,text/csv"
+                  hidden
+                  onChange={(e) => e.target.files?.[0] && readFile(e.target.files[0])}
+                />
               </div>
-              <input
-                ref={input}
-                type="file"
-                accept=".csv,text/csv"
-                hidden
-                onChange={(e) => e.target.files?.[0] && readFile(e.target.files[0])}
-              />
-            </>
-          )}
+            )}
+            {error && (
+              <p role="alert" className="card mt-6 px-4 py-3 text-[15px]">
+                {error}
+              </p>
+            )}
+          </div>
         </div>
-        {error && (
-          <p className="mt-4 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-300">{error}</p>
-        )}
-        <p className="mt-6 text-xs text-ink-400">
-          Your file is parsed in the browser. Only merchant names and amounts are sent to the model for categorization.
+      </section>
+
+      <section id="how" className="border-t border-line px-4 pb-24 pt-24 sm:px-10">
+        <p className="eyebrow mb-6">How it works</p>
+        <h2 className="display max-w-[16ch] text-[clamp(2.25rem,5vw,4.5rem)]">Your numbers stay yours.</h2>
+        <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-3">
+          {STAGES.map((s) => (
+            <div key={s.n} className="flex flex-col gap-10 bg-surface p-6 sm:min-h-64 sm:p-8">
+              <span className="num text-[13px] text-muted">{s.n}</span>
+              <div className="mt-auto">
+                <p className="text-[clamp(1.25rem,1.8vw,1.6rem)] font-semibold leading-tight tracking-tight">{s.when}</p>
+                <p className="mt-3 max-w-[30ch] text-[15px] text-muted">{s.what}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="mt-12 max-w-[52ch] text-[15px] text-muted">
+          Only merchant names and amounts are sent to the model, and only for categorization.
         </p>
-      </main>
+      </section>
     </div>
   );
 }

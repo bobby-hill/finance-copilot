@@ -5,6 +5,7 @@ import Chat from "@/components/Chat";
 import Dashboard from "@/components/Dashboard";
 import Landing from "@/components/Landing";
 import Logo from "@/components/Logo";
+import ThemeToggle from "@/components/ThemeToggle";
 import { parseBankCsv } from "@/lib/csv";
 import type { Transaction } from "@/lib/types";
 
@@ -95,30 +96,32 @@ export default function Home() {
   }
 
   return (
-    <div className="glow min-h-screen">
-      <header className="sticky top-0 z-20 border-b border-ink-700/70 bg-ink-950/80 backdrop-blur">
-        <div className="mx-auto flex max-w-[1500px] items-center justify-between px-4 py-3 sm:px-6">
-          <div className="flex items-center gap-3">
+    <div className="min-h-screen lg:flex lg:h-screen lg:flex-col lg:overflow-hidden">
+      <header className="border-b border-line px-4 py-4 sm:px-10">
+        <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-4">
+          <div className="flex items-center gap-2.5 text-[15px]">
             <Logo />
-            <span className="font-semibold tracking-tight">Ledger</span>
-            <span className="hidden text-sm text-ink-400 sm:inline">
-              · {source?.name} <span className="text-ink-600">({source?.format})</span>
+            <span className="font-semibold">Ledger</span>
+            <span className="hidden sm:inline">
+              {source?.name} <span className="text-muted">({source?.format})</span>
             </span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6 text-[15px]">
             {stats && (
-              <span className="hidden font-mono text-xs text-ink-400 md:inline">
-                {stats.transactions} tx → {stats.merchants} merchants · {stats.calls} calls ·{" "}
+              <span className="num hidden text-muted md:inline">
+                {stats.transactions} transactions → {stats.merchants} merchants · {stats.calls} calls ·{" "}
                 {(stats.prompt_tokens + stats.completion_tokens).toLocaleString()} tokens · {stats.model}
               </span>
             )}
-            <button onClick={reset} className="rounded-lg border border-ink-700 px-3 py-1.5 text-sm text-ink-300 hover:bg-ink-800">
+            <button onClick={reset} className="btn-ghost">
               New file
             </button>
+            <ThemeToggle />
           </div>
         </div>
       </header>
-      <main className="mx-auto grid max-w-[1500px] gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[1fr_440px]">
+      <main className="mx-auto grid w-full max-w-[1500px] gap-6 px-4 pb-10 pt-6 sm:px-10 lg:min-h-0 lg:flex-1 lg:grid-cols-[1fr_440px] lg:pb-6">
+        <div className="min-w-0 lg:min-h-0 lg:overflow-y-auto lg:pr-2">
         <Dashboard txs={txs} onRecategorize={(id, category) => {
           const next = txs.map((t) => (t.id === id ? { ...t, category } : t));
           setTxs(next);
@@ -126,7 +129,8 @@ export default function Home() {
             localStorage.setItem(STORAGE_KEY, JSON.stringify({ txs: next, source, stats }));
           } catch { /* ignore */ }
         }} />
-        <div className="lg:sticky lg:top-[72px] lg:h-[calc(100vh-96px)]">
+        </div>
+        <div className="lg:min-h-0">
           <Chat txs={txs} />
         </div>
       </main>

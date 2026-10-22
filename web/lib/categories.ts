@@ -21,18 +21,19 @@ export const CATEGORY_NAMES = Object.keys(CATEGORIES);
 /** Categories that are not "spending" (money moved, not consumed). */
 export const NON_SPENDING = new Set(["Income", "Savings", "Transfers"]);
 
+// Mid-tone, slightly desaturated hues: legible on both the dark and light surfaces.
 export const CATEGORY_COLORS: Record<string, string> = {
-  Income: "#34d399",
-  Housing: "#818cf8",
-  Utilities: "#38bdf8",
-  Insurance: "#a78bfa",
-  Subscriptions: "#f472b6",
-  Groceries: "#4ade80",
-  "Eating Out": "#fb923c",
-  Transport: "#facc15",
-  Shopping: "#f87171",
-  "Health & Fitness": "#2dd4bf",
-  Savings: "#60a5fa",
-  Transfers: "#94a3b8",
-  Other: "#a1a1aa",
+  Income: "#6c7ae0",
+  Housing: "#4f8fd6",
+  Utilities: "#3fa7b8",
+  Insurance: "#8a8fb8",
+  Subscriptions: "#b46ad0",
+  Groceries: "#4fa874",
+  "Eating Out": "#d08a3c",
+  Transport: "#a3a53d",
+  Shopping: "#d0647f",
+  "Health & Fitness": "#3fb09a",
+  Savings: "#5a9be6",
+  Transfers: "#8a8a93",
+  Other: "#9a9488",
 };
