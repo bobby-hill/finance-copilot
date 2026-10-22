@@ -80,7 +80,7 @@ The price of the extra tools and rules is ~43% more tokens per question.
 - These are *development* questions: I changed the tools after seeing them, so 42/42 is not a held-out score.
   Grounding was reported but not yet enforced in this run (one answer in 42 computed a ratio itself); it now fails the question.
 - Single-turn questions only; one synthetic dataset; no adversarial inputs yet.
-- Not yet measured: the full pipeline including categorization (`--categorize`), and a held-out question set.
+- Not yet measured: the full pipeline including categorization (`--categorize`). A held-out set of 21 questions (paraphrases, multi-turn, unanswerable, prompt injection) is available via `python3 eval/eval_chat.py --set heldout`; see `eval/README.md`.
 
 ## Project layout
 ```
