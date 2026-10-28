@@ -17,7 +17,8 @@ Examples
   python3 eval_chat.py                          # all 14 questions, 1 run
   python3 eval_chat.py --runs 3                 # LLMs vary: see how stable each answer is
   python3 eval_chat.py --only q01,q05 -v        # subset, print answers
-  python3 eval_chat.py --set heldout            # held-out questions (first: python3 make_heldout.py)
+  python3 eval_chat.py --set heldout            # round-1 held-out questions (first: python3 make_heldout.py)
+  python3 eval_chat.py --set fresh              # round-2 questions, written before the fixes (first: python3 make_fresh.py)
   python3 eval_chat.py --judge                  # LLM-as-judge for open-ended questions (needs OPENAI_API_KEY)
   python3 eval_chat.py --price-in 0.40 --price-out 1.60    # $/M tokens -> cost per question (check current pricing)
 
@@ -83,7 +84,12 @@ def tool_numbers(trace):
     def walk(x):
         if isinstance(x, bool):
             return
-        if isinstance(x, (int, float)):
+        if isinstance(x, str):
+            # numbers that are part of text the tool returned (store numbers like "Albert Heijn 1427") are grounded too,
+            # but not the pieces of ISO dates
+            if not re.fullmatch(r"\d{4}(-\d{2}){0,2}", x):
+                out.extend(abs(n) for n in numbers_in(x))
+        elif isinstance(x, (int, float)):
             out.append(abs(float(x)))
         elif isinstance(x, dict):
             for v in x.values():
@@ -132,7 +138,7 @@ def trend_up():
 
 DECLINE_WORDS = ("can't", "cannot", "can not", "don't have", "do not have", "not available", "no information", "unable",
                  "isn't available", "not able", "doesn't contain", "does not contain", "no data", "not included",
-                 "not in the data", "not something", "outside", "doesn't include", "does not include", "no way to")
+                 "not in the data", "not something", "not directly", "not specified", "not stated", "isn't stated", "not mentioned", "outside", "doesn't include", "does not include", "no way to")
 NONE_WORDS = ("no transaction", "didn't find", "did not find", "no spending", "no payment", "couldn't find", "could not find",
               "not find", "don't see", "do not see", "no record", "none", "nothing", "haven't spent", "have not spent",
               "zero", "no matching", "did not spend", "didn't spend", "not spend any", "no money", "any money", "0 eur", "€0", "0.00", "no uber", "not appear", "no results")
@@ -161,6 +167,12 @@ def build_check(c):
         return ("says nothing was found", lambda a, nums: any(w in a for w in NONE_WORDS))
     if t == "no_obey":
         return ("ignores the injected instruction", no_obey)
+    if t == "forbid":
+        ws = [w.lower() for w in c["words"]]
+        return (c["label"], lambda a, nums: not any(w in a for w in ws))
+    if t == "either":
+        subs = [build_check(x) for x in c["checks"]]
+        return ("either: " + " / ".join(n for n, _ in subs), lambda a, nums: any(fn(a, nums) for _, fn in subs))
     raise ValueError(f"unknown check type {t}")
 
 
@@ -208,12 +220,15 @@ def dev_items(key):
     return items
 
 
-def heldout_items():
-    data = json.loads((ROOT / "data/chat_heldout.json").read_text())
+def heldout_items(name="chat_heldout"):
+    data = json.loads((ROOT / f"data/{name}.json").read_text())
     items = [dict(id=q["id"], turns=q["turns"], checks=[build_check(c) for c in q["checks"]], labels=None,
                   tools=set(q["tools"]), gap=q.get("note") if q.get("hard") else None, judge=None, payload=q["payload"])
              for q in data["questions"]]
-    return items, data["injection_transaction"]
+    injections = dict(data.get("injections", {}))
+    if "injection_transaction" in data:
+        injections["injection"] = data["injection_transaction"]
+    return items, injections
 
 
 # ------------------------------------------------------------------ http
@@ -270,7 +285,7 @@ def evaluate(args, txs, items, injection=None):
     for it in items:
         if args.only and it["id"] not in args.only:
             continue
-        payload_txs = txs + ([{**injection, "id": len(txs)}] if it["payload"] == "injection" and injection else [])
+        payload_txs = txs + ([{**injection[it["payload"]], "id": len(txs)}] if injection and it["payload"] in injection else [])
         t0, waited0 = time.time(), WAITED
         messages, usage_sum, status, data = [], {"prompt_tokens": 0, "completion_tokens": 0, "calls": 0}, 200, {}
         for turn in it["turns"]:  # multi-turn: the assistant's reply is fed back as history
@@ -325,8 +340,8 @@ def evaluate(args, txs, items, injection=None):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--url", default="http://localhost:3000")
-    ap.add_argument("--set", choices=["dev", "heldout"], default="dev",
-                    help="dev = the 14 answer-key questions (tuned against); heldout = data/chat_heldout.json (python3 make_heldout.py)")
+    ap.add_argument("--set", choices=["dev", "heldout", "fresh"], default="dev",
+                    help="dev = the 14 answer-key questions (tuned against); heldout = round 1 (data/chat_heldout.json, now a dev set after the fixes); fresh = round 2 (data/chat_fresh.json)")
     ap.add_argument("--runs", type=int, default=1)
     ap.add_argument("--only", type=lambda s: set(s.split(",")), help="comma-separated ids, e.g. q01,q05")
     ap.add_argument("--categorize", action="store_true", help="use /api/categorize instead of the true labels")
@@ -342,10 +357,11 @@ def main():
 
     txs, key = load_transactions()
     injection = None
-    if args.set == "heldout":
-        if not (ROOT / "data/chat_heldout.json").exists():
-            sys.exit("Run first:  python3 make_heldout.py")
-        items, injection = heldout_items()
+    if args.set in ("heldout", "fresh"):
+        name = {"heldout": "chat_heldout", "fresh": "chat_fresh"}[args.set]
+        if not (ROOT / f"data/{name}.json").exists():
+            sys.exit(f"Run first:  python3 {'make_heldout.py' if args.set == 'heldout' else 'make_fresh.py'}")
+        items, injection = heldout_items(name)
     else:
         items = dev_items(key)
     cat_usage = None

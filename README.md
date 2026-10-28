@@ -28,7 +28,7 @@ dashboard (pure TS tools)                   groups 731 tx → 46 merchants,     
                                             labels each merchant once
 chat panel             ── question ───▶  /api/chat  agent loop (≤6 steps)  ◀──▶  function calling
   shows tool trace     ◀── answer + trace   runs tools: get_overview, summarize_spending,
-                                            list_transactions, find_recurring, find_duplicates, get_balance
+                                            list_transactions, find_recurring, find_duplicates, get_balance, compare_periods
 ```
 
 - **No hallucinated numbers:** the system prompt forbids arithmetic; the agent must call tools (`web/lib/tools.ts`).
@@ -80,7 +80,7 @@ The price of the extra tools and rules is ~43% more tokens per question.
 - These are *development* questions: I changed the tools after seeing them, so 42/42 is not a held-out score.
   Grounding was reported but not yet enforced in this run (one answer in 42 computed a ratio itself); it now fails the question.
 - Single-turn questions only; one synthetic dataset; no adversarial inputs yet.
-- Not yet measured: the full pipeline including categorization (`--categorize`). A held-out set of 21 questions (paraphrases, multi-turn, unanswerable, prompt injection) is available via `python3 eval/eval_chat.py --set heldout`; see `eval/README.md`.
+- Not yet measured: the full pipeline including categorization (`--categorize`). Held-out results, the fixes they led to (prompt-injection defense, `compare_periods`, recurring subtotals) and a second fresh question set are documented in `eval/README.md`.
 
 ## Project layout
 ```

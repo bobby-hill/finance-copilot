@@ -170,12 +170,45 @@ export function findRecurring(txs: Transaction[]) {
   out.sort((a, b) => b.latest_amount - a.latest_amount);
   const discretionary = out.filter((r) => !r.essential);
   const sum = (l: RecurringCharge[]) => r2(l.reduce((s, r) => s + r.latest_amount, 0));
+  // Subtotals per category computed here so the model never has to add charges up itself.
+  const cats = [...new Set(out.map((r) => r.category ?? "Uncategorized"))];
+  const by_category = cats
+    .map((c) => {
+      const items = out.filter((r) => (r.category ?? "Uncategorized") === c);
+      return { category: c, essential: items[0].essential, monthly_total: sum(items), count: items.length };
+    })
+    .sort((a, b) => b.monthly_total - a.monthly_total);
   return {
     recurring: out,
     monthly_total: sum(out),
+    essential_monthly_total: sum(out.filter((r) => r.essential)),
+    by_category,
     // "Subscriptions" / "memberships" = the non-essential recurring charges (streaming, gym, bike, ...)
     discretionary_monthly_total: sum(discretionary),
     discretionary_yearly_total: r2(sum(discretionary) * 12),
+  };
+}
+
+/** Total spend (or income) in two periods side by side, with the difference computed in code. */
+export function comparePeriods(
+  txs: Transaction[],
+  args: Omit<Filters, "from" | "to"> & { a_from: string; a_to: string; b_from: string; b_to: string },
+) {
+  const { a_from, a_to, b_from, b_to, ...base } = args;
+  const one = (from: string, to: string) => {
+    const s = summarizeSpending(txs, { ...base, from, to, group_by: "category" });
+    return { from, to, total: s.grand_total, transaction_count: s.transaction_count };
+  };
+  const a = one(a_from, a_to);
+  const b = one(b_from, b_to);
+  const difference = r2(b.total - a.total);
+  return {
+    filters: base,
+    period_a: a,
+    period_b: b,
+    difference_b_minus_a: difference,
+    percent_change: a.total === 0 ? null : r2((difference / a.total) * 100),
+    trend: difference > 0 ? "b is higher" : difference < 0 ? "b is lower" : "same",
   };
 }
 
@@ -283,6 +316,27 @@ export const TOOL_SCHEMAS = [
   {
     type: "function",
     function: {
+      name: "compare_periods",
+      description:
+        "Compare spending (or income with direction 'in') in two periods, optionally for one category or merchant. Returns both totals, the difference (b minus a) and percent change, all computed in code: use this for any 'compare', 'more or less than', 'difference between' question and quote its difference instead of subtracting yourself. Period a = the first period mentioned in the question, b = the second; difference = b minus a. Dates are YYYY-MM-DD or YYYY-MM.",
+      parameters: {
+        type: "object",
+        properties: {
+          a_from: { type: "string" },
+          a_to: { type: "string" },
+          b_from: { type: "string" },
+          b_to: { type: "string" },
+          category: filterProps.category,
+          merchant: filterProps.merchant,
+          direction: filterProps.direction,
+        },
+        required: ["a_from", "a_to", "b_from", "b_to"],
+      },
+    },
+  },
+  {
+    type: "function",
+    function: {
       name: "get_balance",
       description: "Account balance after the last transaction on or before a date (YYYY-MM-DD or YYYY-MM). Omit date for the latest balance.",
       parameters: { type: "object", properties: { date: { type: "string" } } },
@@ -308,6 +362,8 @@ export function runTool(name: string, args: Record<string, unknown>, txs: Transa
       return listTransactions(txs, args as Parameters<typeof listTransactions>[1]);
     case "find_recurring":
       return findRecurring(txs);
+    case "compare_periods":
+      return comparePeriods(txs, args as Parameters<typeof comparePeriods>[1]);
     case "find_duplicates":
       return findDuplicates(txs);
     case "get_balance":
